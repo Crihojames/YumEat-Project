@@ -3,6 +3,7 @@ import Featured from "./components/Featured";
 import Meal from "./components/Meal";
 import TopNav from "./components/TopNav";
 import TopPicks from "./components/TopPicks";
+import Categories from "./components/Categories";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Delivery/>
       <TopPicks />
       <Meal />
+        <Categories />
     </div>
   );
 }

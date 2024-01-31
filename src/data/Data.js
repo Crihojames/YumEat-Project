@@ -120,7 +120,7 @@ export const mealData = [
           },
         ];
         
-export const category = [
+export const categories = [
     {
       id: 1,
       name: 'Burger',
@@ -145,5 +145,5 @@ export const category = [
             id: 12,
             name: 'Chicken',
             image: 'https://img.freepik.com/photos-gratuite/poulet-frit-croustillant-assiette-salade-carotte_1150-20212.jpg?size=626&ext=jpg&ga=GA1.1.709481773.1701434138&semt=ais',
-          },
+    }
 ]
