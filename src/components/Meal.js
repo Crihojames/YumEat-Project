@@ -32,15 +32,15 @@ const Meal = () => {
                         className='m-1 border-orange-700 text-white bg-orange-700 hover:bg-white hover:text-orange-700 hover:border-orange-700 '>Salad</button>
                 </div>
             </div>
-            <div className='grid md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-4 gap-6'>
+            <div className='grid md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-4 gap-6 py-4'>
                 {
                     foods.map((item)=>(
-                        <div className='border-none hover:scale-105 duration-300'>
+                        <div key={item.id} className='border-none hover:scale-105 duration-300'>
                             <img src={item.image}
                                  alt={item.name}
                             className= "w-full h-[200px] object-cover rounded-lg"
                             />
-                            <div className='flex justify-between py-2 px-4'>
+                            <div className='flex justify-between py-2 px-2'>
                                 <p className='font-bold'>{item.name}</p>
                                 <p className='bg-orange-700 h-18 w-18 rounded-full -mt-10 text-white py-4 px-2 border-8 font-bold'>{item.price}</p>
                             </div>
